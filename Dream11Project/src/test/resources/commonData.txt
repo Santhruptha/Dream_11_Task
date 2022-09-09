@@ -1,7 +1,7 @@
-platformVersion 12
-deviceId d58acfdb
-appPackage com.app.dream11Pro
-appActivity com.app.dream11.dream11.SplashActivity 
+platformVersion 10
+deviceId fd09ceee0407
+appPackage com.devaseva.app
+appActivity .MainActivity 
 urlAddress http://localhost:4723/wd/hub
 
 

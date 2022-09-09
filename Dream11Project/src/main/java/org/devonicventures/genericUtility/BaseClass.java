@@ -75,15 +75,11 @@ public class BaseClass {
 
 		ListenerImplimentationclass.testLog.info("Application Opened");
 
+		
 		ThreadSafeClass.getMobileUtility().initializeExplicitWait(10);
 
 
-		//object for pom classes
-		homePage=new homePage(ThreadSafeClass.getDriver());
-		myMatchpage=new myMatchesPage(ThreadSafeClass.getDriver());
-		winnerPage=new winnersPage(ThreadSafeClass.getDriver());
-		rewardPage=new rewardsPage(ThreadSafeClass.getDriver());
-		chatpage=new chatPage(ThreadSafeClass.getDriver());
+	
 	}
 
 	@AfterMethod

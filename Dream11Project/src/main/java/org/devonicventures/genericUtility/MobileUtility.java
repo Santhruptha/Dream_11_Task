@@ -358,6 +358,9 @@ public class MobileUtility {
 		String path=ts.getScreenshotAs(OutputType.BASE64);
 		return path;
 	}
+	public void waittillElement(int duration) throws InterruptedException {
+		Thread.sleep(duration);
+	}
 	
 	
 

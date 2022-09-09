@@ -95,7 +95,8 @@ public class homePage {
 		closeBtn.click();
 	}
 	
-	public boolean getFlagImgElement() {
+	public boolean getFlagImgElement() throws InterruptedException {
+		Thread.sleep(6000);
 		return flagImg.isDisplayed();
 	}
 
